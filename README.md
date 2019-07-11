@@ -54,10 +54,6 @@ Role Variables
 * `monit_webinterface_rw_group`: Define group of users allowed to read and write on web interface. It is only applied when defined and is empty by default.
 * `monit_webinterface_r_group`: Define group of users allowed to read on web interface. It is only applied when defined and is empty by default.
 * `monit_webinterface_acl_rules`: List of ACL rules for the web interface, such as "localhost" or "hauk:password". It is only applied when defined and is empty by default. You should probably define at least one for the httpd service to start.
-* `monit_apache_rules`: List of monitoring rules for apache service. You should adjust them to your needs.
-* `monit_apache_groups`: List of groups for the apache service. This list is empty by default.
-* `monit_memcached_rules`: List of monitoring rules for memcached service. You should adjust them to your needs.
-* `monit_memcached_groups`: List of groups for the memcached service. This list is empty by default.
 
 Custom facts
 ------------
@@ -79,10 +75,12 @@ CONTRIBUTORS
 * [Anthony Dmitriyev](https://github.com/antstorm)
 * [byteshiva](http://byteshiva.github.io/)
 * [Eduardo de Vera Toquero](https://github.com/etux)
+* [Jordi Clariana](https://github.com/jordiclariana)
 * [Manuel Tiago Pereira](http://mtpereira.github.io/)
 * [Markus Klepp](https://github.com/kh0r)
 * [Panagiotis Moustafellos](https://github.com/pmoust)
 * [Peter Golm](https://github.com/pgolm)
+* [Romain Gonord](https://github.com/astik)
 * [Roozbeh Farahbod](https://github.com/roozbehf)
 * [Svend Vanderveken](https://github.com/svendx4f)
 * [Tom Naessens](https://github.com/Silox)
